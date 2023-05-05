@@ -1,0 +1,88 @@
+body{
+    background-color:rgba(0, 0, 0, 0.856);
+    color: white;
+}
+
+.house{
+    display:flex;
+}
+.header{
+    display:flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    box-shadow: 1px 4px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 1px 4px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 4px 5px 0px rgba(0,0,0,0.75);
+
+}.container{
+    width:98%;
+    border-right:.05px solid rgba(128, 128, 128, 0.938);
+}
+.head{
+    /* border-left:.05px solid rgba(128, 128, 128, 0.938);
+    border-right:.05px solid rgba(128, 128, 128, 0.938);
+     */
+}
+/* .main{
+    display:grid;
+    margin-top: 10px;
+    grid-template-columns: repeat(6, 1fr);
+    /* grid-template-rows: repeat(2, 1.5fr); */
+    /* grid-template-rows: repeat(2, 200px) 1.5fr 1.5fr;
+    
+} */ 
+.smallcontainer{
+    display:grid;
+    margin-top: 10px;
+    grid-template-columns: repeat(6, 1fr);
+    /* grid-template-rows: repeat(2, 1.5fr); */
+    grid-template-rows: repeat(2, 1fr) 1.5fr 1.5fr;
+    
+}
+
+.scc , .bcc{
+    border:.05px solid rgba(128, 128, 128, 0.068);
+    padding:20px;
+    /* overflow: auto; */
+    
+}
+.scc:nth-child(7){
+    background-color: green;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.596), green);
+    box-shadow: 1px 4px 5px 0px rgba(11, 233, 3, 0.541);
+-webkit-box-shadow: 1px 4px 5px 0px rgba(49, 180, 16, 0.541);
+-moz-box-shadow: 1px 4px 5px 0px rgba(49, 207, 9, 0.75);
+}
+.scc{
+    font-size: x-small;
+    
+}
+
+
+.bcc{
+    font-size:small;
+}
+h2{
+    padding-bottom: 40px;
+}
+ul{
+    margin:0;
+    padding:0;
+    line-height:.5;
+}
+
+li{
+    list-style:none;
+
+}
+.list{
+    margin-left:3rem;
+}
+.list::before{
+   content: url(https://img.icons8.com/?size=1x&id=36067&format=png);
+    background-size:15px;
+    display: inline;
+    height:15px;
+    width:15px;
+    /* margin-left:10px; */
+}
