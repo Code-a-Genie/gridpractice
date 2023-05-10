@@ -49,9 +49,10 @@ body{
 .scc:nth-child(7){
     background-color: green;
     background: linear-gradient(to right, rgba(0, 0, 0, 0.596), green);
-    box-shadow: 1px 4px 5px 0px rgba(11, 233, 3, 0.541);
--webkit-box-shadow: 1px 4px 5px 0px rgba(49, 180, 16, 0.541);
--moz-box-shadow: 1px 4px 5px 0px rgba(49, 207, 9, 0.75);
+    box-shadow: 1px 4px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 4px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 4px 5px 0px rgba(0,0,0,0.75);
+    
 }
 .scc{
     font-size: x-small;
